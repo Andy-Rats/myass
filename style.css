@@ -74,5 +74,31 @@ div {
         #ff5722
     );
 }
-
 .bigger { font-size:200%; }
+.evenbigger { font-size:400%; }
+
+#sst {
+    font-size: 100px;
+    text-align: center;
+    color: darkorange;
+}
+#sstb {
+    font-size: 50px;
+    color: #f9a825;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      #000000b3, 
+      #000000b3
+    ),
+        url(https://web.archive.org/web/20091019113817/http://www.geocities.com/gwaynehipps/Camp_Fire_animated.gif) ;
+    
+    background-size: 50%;
+}
+
+#music_reccomendation {
+    font-size:125px;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
